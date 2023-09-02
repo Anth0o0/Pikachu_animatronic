@@ -1,4 +1,4 @@
-# Pikachu_articulated
+# Pikachu_animatronic
 
 This git is regroup the code of an animatronic based on the Pokemon Pikachu.
 This code can be used with an ESP32 microcontroller to activate the wifi so that it can become a wifi router. 
