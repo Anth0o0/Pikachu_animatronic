@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fox Bot</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		/* La section <style> contient les instructions de style pour la page. */
+		.container {
+			max-width: 100%;
+			margin: 0 auto;
+			text-align: center;
+		}
+		/* La classe .container est utilisée pour centrer le contenu de la page et limiter sa largeur à 800 pixels. */
+		h1 {
+			font-size: 28px;
+			margin-top: 30px;
+		}
+		/* Le titre <h1> est le titre principal de la page. La classe .h1 est utilisée pour définir sa taille de police et son espacement. */
+		.company-image {
+			width: 50%;
+			margin-top: 30px;
+			border: 5px solid #ccc; /* Ajout de la propriété "border" avec une valeur de "1px" pour l'épaisseur de la bordure et une couleur de "gray" (#ccc) */
+			
+		}
+		/* La classe .company-image est utilisée pour définir la taille de l'image de l'entreprise. */
+		.button {
+			display: inline-block;
+			margin: 10px;
+			border: none;
+			background-color: #FAF0E6; 
+			color: white;
+			padding: 20px 40px; /*ajoute de l'espace entre le contenu du bouton et ses bords, créant ainsi l'effet de volume */
+			border-radius: 30px; /*arrondit les bords */
+			text-align: center;
+			text-decoration: none;
+			font-size: 16px;
+			cursor: pointer;
+			box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.5), 0px 0px 0px 1px rgba(255,255,255,0.5); 
+			border: 1px solid #FCE903; /* Ajout d'une bordure */
+			transition: all 0.3s ease-in-out; /*transition lors du passage de la souris sur le bouton */
+		}
+		/* La classe .button est utilisée pour mettre en forme les boutons. */
+		.button img {
+			max-height: 50px;
+			margin-right: 10px;
+			vertical-align: middle;
+		}
+		/* La classe .button img est utilisée pour définir la taille et l'espacement des images des boutons. */
+	</style>
+</head>
+<body>
+	<div class="container">
+		<!-- <h1>Fox Bot</h1> -->
+		<img class="company-image" src="https://cdn.discordapp.com/attachments/1046735136328269848/1076102597599055882/image.png" alt="company logo">
+		<div class="buttons">
+			<button class="button" id="button1" oneclick="sendData('1')"><img src="https://cdn.discordapp.com/attachments/922061720166481980/1083386900896829530/assis.png" alt="button image"></button>
+			<button class="button" id="button2" oneclick="sendData('2')"><img src="https://cdn.discordapp.com/attachments/922061720166481980/1083386901127503933/attaque.png" alt="button image"></button>
+			<button class="button" id="button3" oneclick="sendData('3')"><img src="https://cdn.discordapp.com/attachments/922061720166481980/1083386901903458417/debout.png" alt="button image"></button> 
+			<button class="button" id="button4" oneclick="sendData('4')"><img src="https://cdn.discordapp.com/attachments/922061720166481980/1083386901635026974/debout_disant_bonjour.png" alt="button image"></button> 
+			<button class="button" id="button5" oneclick="sendData('5')"><img src="https://cdn.discordapp.com/attachments/922061720166481980/1083386903111422073/triste.png" alt="button image"></button>
+			<button class="button" id="button6" oneclick="sendData('6')"><img src="https://cdn.discordapp.com/attachments/922061720166481980/1083386901374976091/bras_leves.png" alt="button image"></button> 
+			<button class="button" id="button7" oneclick="sendData('7')"><img src="https://cdn.discordapp.com/attachments/922061720166481980/1083386902822010961/perplexe.png" alt="button image"></button> 
+			<button class="button" id="button8" oneclick="sendData('8')"><img src="https://cdn.discordapp.com/attachments/922061720166481980/1083386902239006720/enerve.png" alt="button image"></button>
+			<button class="button" id="button9" oneclick="sendData('9')"><img src="https://cdn.discordapp.com/attachments/922061720166481980/1083386902553567242/lover.png" alt="button image"></button>
+			<button class="button" id="button10" oneclick="sendData('10')"><img src="https://cdn.discordapp.com/attachments/922061720166481980/1083386900607418419/couche.png" alt="button image"></button>
+			<button class="button">Bouton Test</button>
+
+		</div>
+	</div>
+</body>
+</html>
